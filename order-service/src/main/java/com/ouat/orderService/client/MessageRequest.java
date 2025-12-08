@@ -1,0 +1,43 @@
+package com.ouat.orderService.client;
+
+import java.io.Serializable;
+
+import com.fasterxml.jackson.databind.PropertyNamingStrategy;
+import com.fasterxml.jackson.databind.annotation.JsonNaming;
+@JsonNaming(PropertyNamingStrategy.SnakeCaseStrategy.class)
+public class MessageRequest implements Serializable {
+
+    private static final long serialVersionUID = 1L;
+
+    private String mobileNumber;
+    private DLTTemplateType dltTemplateType;
+    private String content;
+
+    public String getMobileNumber() {
+        return mobileNumber;
+    }
+
+    public void setMobileNumber(String mobileNumber) {
+        this.mobileNumber = mobileNumber;
+    }
+
+	public DLTTemplateType getDltTemplateType() {
+		return dltTemplateType;
+	}
+
+	public void setDltTemplateType(DLTTemplateType dltTemplateType) {
+		this.dltTemplateType = dltTemplateType;
+	}
+
+	public String getContent() {
+		return content;
+	}
+
+	public void setContent(String content) {
+		this.content = content;
+	}
+	
+	
+
+    
+}

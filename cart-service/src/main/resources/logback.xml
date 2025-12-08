@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<configuration>
+	<appender name="info" class="ch.qos.logback.core.FileAppender">
+		<filter class="ch.qos.logback.classic.filter.ThresholdFilter">
+			<level>INFO</level>
+		</filter>
+		<file>/tmp/logs/cart-service-api.log</file>
+		<encoder>
+			<pattern>%d [%thread] %-5level [%X{Slf4jMDCFilter.UUID}] %logger{36}
+				- %message%n
+			</pattern>
+		</encoder>
+	</appender>
+
+	<appender name="long-request"
+			  class="ch.qos.logback.core.FileAppender">
+		<filter class="ch.qos.logback.classic.filter.ThresholdFilter">
+			<level>INFO</level>
+		</filter>
+		<file>/tmp/logs/cart-service-long-request.log</file>
+		<encoder>
+			<pattern>%d [%thread] %-5level [%X{Slf4jMDCFilter.UUID}] %logger{36}
+				- %message%n
+			</pattern>
+		</encoder>
+	</appender>
+
+	<appender name="action"
+			  class="ch.qos.logback.core.FileAppender">
+		<file>/tmp/logs/cart-service-api-action.log</file>
+		<encoder>
+			<pattern>%message%n</pattern>
+		</encoder>
+	</appender>
+
+	<appender name="events"
+			  class="ch.qos.logback.core.FileAppender">
+		<file>/tmp/logs/cart-service-api-event.log</file>
+		<encoder>
+			<pattern>%message%n</pattern>
+		</encoder>
+	</appender>
+
+	<logger name="action" additivity="false" level="INFO">
+		<appender-ref ref="action" />
+	</logger>
+
+	<logger name="org.springframework" level="WARN" />
+	<logger name="org.hibernate" level="WARN" />
+	<logger name="org.apache.http" level="WARN" />
+	<logger name="org.apache.activemq" level="WARN" />
+
+	<appender name="queries"
+			  class="ch.qos.logback.core.FileAppender">
+		<file>/tmp/logs/cart-service-api-queries.log</file>
+		<encoder>
+			<pattern>date=%d|thread=[%thread]|uuid=[%X{Slf4jMDCFilter.UUID}]|level=%level|class=%logger{36}|source=%message%n
+			</pattern>
+		</encoder>
+	</appender>
+
+	<root level="debug">
+		<appender-ref ref="info" />
+	</root>
+</configuration>

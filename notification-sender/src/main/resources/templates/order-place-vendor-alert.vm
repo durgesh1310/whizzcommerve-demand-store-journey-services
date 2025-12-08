@@ -1,0 +1,267 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+ <html xmlns="http://www.w3.org/1999/xhtml">
+   <head>
+     <meta http-equiv="content-type" content="text/html; charset=iso-8859-1">
+    <title>Order Confirmation</title>
+  	<link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@200;300;400;600;700;900&display=swap" rel="stylesheet">
+ 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+     <style type="text/css">
+ 	 body{font-family: 'Open Sans', sans-serif;}
+       .style1 {
+         font-size:20px;
+         color:#fff;
+       }
+       @media only screen and (max-width: 480px) {
+         table#canspambartdfont-size:14px !important;
+       }
+
+       table#canspamBar td a {
+         display:block !important;
+         margin-top:10px !important;
+       }
+     }
+     @media only screen and (max-width: 480px) {
+       table#canspamBar td {
+         font-size:14px !important;
+       }
+
+       table#canspamBar td a {
+         display:block !important;
+         margin-top:10px !important;
+       }
+     }
+
+     @media only screen and (max-width: 480px) {
+       table#canspamBar td {
+         font-size:14px !important;
+       }
+
+       table#canspamBar td a {
+         display:block !important;
+         margin-top:10px !important;
+       }
+     }
+
+     @media only screen and (max-width: 480px) {
+       table#canspamBar td {
+         font-size:14px !important;
+       }
+
+       table#canspamBar td a {
+         display:block !important;
+         margin-top:10px !important;
+       }
+     }
+
+     @media only screen and (max-width: 480px) {
+       table#canspamBar td {
+         font-size:14px !important;
+       }
+       table#canspamBar td a {
+         display:block !important;
+         margin-top:10px !important;
+       }
+     }
+     </style>
+   </head>
+   <body>
+     <table width="700" style="border-left:1px;border-right:1px;" cellspacing="0" cellpadding="0" align="center">
+ 		<tr>
+ 			<td> 
+ 			  <span style="font-size:1px;color:#ffffff;">Thank you for your order</span>
+ 			</td>
+ 		</tr>
+ 		<tr>
+				<td>
+					<table cellspacing="0" cellpadding="0" style="width:100%; margin-top: 12px; margin-bottom: 15px;">
+						<tr>
+							<td align="left" vertical-align="middle" width="275"><a style="display: inline-block;" href="https://www.taggd.com/?utm_source=smartech&utm_medium=email_13102022&utm_campaign=Order_Placed&utm_term=Logo"><img src="https://taggd.gumlet.io/mailers/store-credit/taggd-logo.jpg" alt="logo" style="width: 110px;" ></a></td>
+							
+							<td align="center" width="85"><a  style="color: #000; text-decoration: none; font-weight: bold; display: inline-block; padding-bottom: 4px; line-height: 1;border-bottom: 2px solid #000;" href="https://taggd.com/products/4801/?utm_source=smartech&utm_medium=email_13102022&utm_campaign=Order_Placed&utm_term=Menu1">Women</a></td>
+							
+							<td align="center" width="85"><a  style="color: #000; text-decoration: none; font-weight: bold; display: inline-block; padding-bottom: 4px; line-height: 1;border-bottom: 2px solid #000;" href="https://www.taggd.com/products/kids-fashion/?utm_source=smartech&utm_medium=email_13102022&utm_campaign=Order_Placed&utm_term=Menu2">Kids</a></td>
+							
+							<td align="center" width="85"><a  style="color: #000; text-decoration: none; font-weight: bold; display: inline-block; padding-bottom: 4px; line-height: 1;border-bottom: 2px solid #000;" href="https://www.taggd.com/products/beauty/?utm_source=smartech&utm_medium=email_13102022&utm_campaign=Order_Placed&utm_term=Menu3">Beauty</a></td>
+							
+							<td align="center" width="85"><a  style="color: #000; text-decoration: none; font-weight: bold; display: inline-block; padding-bottom: 4px; line-height: 1;border-bottom: 2px solid #000;" href="https://www.taggd.com/products/home-decor?utm_source=smartech&utm_medium=email_13102022&utm_campaign=Order_Placed&utm_term=Menu4">Decor</a></td>
+							
+							<td align="center" width="85"><a  style="color: #db4a4f; text-decoration: none; font-weight: bold; display: inline-block; padding-bottom: 4px; line-height: 1; border-bottom: 2px solid #db4a4f;" href="https://www.taggd.com/collection/84/?utm_source=smartech&utm_medium=email_13102022&utm_campaign=Order_Placed&utm_term=Menu5">Sale</a></td>
+							
+						</tr>
+					</table>	
+				</td>			
+			</tr> 
+
+ 		<!-- Newsletter body Start -->
+ 				<tr>
+ 					<td style="padding:20px 10px 15px; font-size:15px;">
+ 							<table cellspacing="0" cellpadding="0" style="width:100%">
+ 									<tr>
+ 										<td>
+ 												<p style="margin-top:0;margin-bottom:15px;">Hi ${VENDOR_NAME},</p>
+ 										</td>
+ 									</tr>
+
+ 									<tr>
+ 										<td>
+ 												<p style="margin-top:0;margin-bottom:10px;font-weight: 600;">Order Confirmed</p>
+ 										</td>
+ 									</tr>
+
+ 									<tr>
+ 										<td>
+ 												<p style="margin-top:0; margin-bottom:10px; line-height: 24px;">An order has been placed with the following details.</p>
+ 										</td>
+ 									</tr>
+
+ 									<tr>
+ 										<td>
+ 												<p style="margin-top:10px; margin-bottom:6px;font-size:15px;font-weight: 600;">Order ID # ${VENDOR_ORDER_ALERT.getOrderId()}</p>
+ 												<p style="margin-top:0; margin-bottom:10px; line-height: 22px;"><span>Placed on</span> ${VENDOR_ORDER_ALERT.getPlaceOrderDateTime()}</p>
+ 										</td>
+ 									</tr>
+
+ 									<tr>
+ 										<td>
+ 												<table cellspacing="0" cellpadding="0" style="width:100%; text-align:left; margin-top: 12px;">
+ 														<tr>
+ 															<td>
+ 																<h3 style="font-weight:600;line-height:1.1;margin-bottom:8px;margin-top:0;font-size:15px;color:#000">Delivery Address</h3>
+ 																<p style="margin-top:0;margin-bottom:10px;text-transform:capitalize;font-size:15px;">${VENDOR_ORDER_ALERT.getBillingAndShippingDetail().getFullName()}<br>
+ 																	${VENDOR_ORDER_ALERT.getBillingAndShippingDetail().getPincode()}<br>
+ 																	${VENDOR_ORDER_ALERT.getBillingAndShippingDetail().getAddress()}<br>
+ 																	${VENDOR_ORDER_ALERT.getBillingAndShippingDetail().getState()}<br>
+ 																	T: ${VENDOR_ORDER_ALERT.getBillingAndShippingDetail().getMobile()}
+ 																</p>
+ 															</td>
+
+ 														</tr>
+ 												</table>
+ 										</td>
+ 									</tr>
+ 									<tr>
+ 										<td>
+ 												<table cellspacing="0" cellpadding="0" style="width:100%; text-align:left; margin-top: 12px;">
+ 														<tr>
+ 															<td>
+ 																<h3 style="font-weight:400;line-height:1.1;margin-bottom:8px;margin-top:0;font-size:15px;color:#000">Payment Method</h3>
+ 																	<p style="margin-top:0;margin-bottom:10px;text-transform:capitalize;font-size:15px;">${VENDOR_ORDER_ALERT.getPaymentMethod()}</p>
+ 															</td>
+ 														</tr>
+ 												</table>
+ 										</td>
+ 									</tr>
+
+ 									<tr>
+ 										<td>
+ 												<table cellspacing="0" cellpadding="0" style="width:100%; border: 1px solid #343333; margin-top:15px; font-size:15px;">
+ 														<tr>
+ 																<th style="padding: 8px 10px; text-align:left; border-bottom: 1px solid #343333;">Item</th>
+ 																<th style="padding: 8px 10px; text-align:center; border-bottom: 1px solid #343333;">Sku</th>
+ 																<th style="padding: 8px 10px; text-align:center; border-bottom: 1px solid #343333;">Size</th>
+ 																<th style="padding: 8px 10px; text-align:center; border-bottom: 1px solid #343333;">Qty</th>
+ 																<th style="padding: 8px 10px; text-align:right; border-bottom: 1px solid #343333;">Selling Price</th>
+ 																<th style="padding: 8px 10px; text-align:right; border-bottom: 1px solid #343333;">Vendor Price</th>
+
+ 														</tr>
+
+  													     <tr>
+ 															<td style="padding: 8px 10px; text-align:left; border-bottom: 1px solid #343333;">
+ 																<img src= "${VENDOR_ORDER_ALERT.getProductItemDetail().getItemImageUrl()}" alt="" style="width: 45px;">
+ 																<span style="display:block; color: #f31f6f; font-weight: 600; margin: 8px 0;">${VENDOR_ORDER_ALERT.getProductItemDetail().getProductName()}</span>
+ 															</td>
+ 															<td style="padding: 8px 10px; text-align:center; border-bottom: 1px solid #343333;">${VENDOR_ORDER_ALERT.getProductItemDetail().getSku()}</td>
+ 															<td style="padding: 8px 10px; text-align:center; border-bottom: 1px solid #343333;">${VENDOR_ORDER_ALERT.getProductItemDetail().getSize()}</td>
+ 															<td style="padding: 8px 10px; text-align:center; border-bottom: 1px solid #343333;">${VENDOR_ORDER_ALERT.getProductItemDetail().getQty()}</td>
+ 															<td style="padding: 8px 10px; text-align:center; border-bottom: 1px solid #343333;">${PRODUCT_SELLING_PRICE}</td>
+ 															<td style="padding: 8px 10px; text-align:center; border-bottom: 1px solid #343333;">${VENDOR_PRICE}</td>
+
+ 														</tr>
+
+
+ 												</table>
+ 										</td>
+ 									</tr>
+
+ 							</table>
+ 					</td>
+ 				</tr>
+
+ 		<!-- Newsletter body End -->
+         
+		 <!-- Newsletter Footer Section -->
+ 		
+			<tr>
+			<td>
+				<table cellspacing="0" cellpadding="0" style="width:100%;">
+					<tr>
+						<td style="padding:0px 10px;">
+								<p style="margin-top:10px; margin-bottom:24px;">
+										<span style="font-size:16px; display:block; margin-bottom: 12px;"><strong style="font-weight:700">Other Questions?</strong></span>
+										<span style="display:block;margin-top:6px; margin-bottom:6px; font-size: 15px;">If you have any questions, please feel free to contact us at</span>
+										<a href="mailto:customercare@taggd.com" style="text-decoration:none;font-weight:bold;color:#000; font-size: 15px;" target="_blank">customercare@taggd.<wbr>com</a>
+								</p>
+						</td>
+					</tr>
+				
+				
+					<tr>
+						<td align="center" style="background: #fbfbf8; text-align:center; font-size: 15px; font-weight: 600; color:#343333;">
+								<p style="margin-top:0px; margin-bottom:0px; padding: 10px;">Thank You, Team taggd!</p>
+						</td>
+					</tr>
+					
+					<tr>
+						<td align="center" style="font-size: 14px; font-weight: 600; color:#343333; padding: 20px 0;">
+							<table style="text-align: center; width: 80%; margin: 0 auto;">
+								<tr>
+									<td>
+										<a href="https://www.taggd.com/terms-conditions" style="text-decoration: none; color: #343333; letter-spacing: 0.5px; display: inline-block;">Terms &amp; Conditions</a>
+									</td>
+									<td style="text-align:center;padding:0 20px">|</td>
+									
+									<td>
+										<a href="https://www.taggd.com/cancellation-return" style="text-decoration: none; color: #343333; letter-spacing: 0.5px; display: inline-block;">Cancellation &amp; Return</a>
+									</td>
+									<td style="text-align:center;padding:0 20px">|</td>
+									<td>
+										<a href="https://www.taggd.com/shipping-policy" style="text-decoration: none; color: #343333; letter-spacing: 0.5px; display: inline-block;">Shipping &amp; Policy</a>
+									</td>
+								</tr>
+							</table>
+						
+							
+						</td>
+					</tr>
+				
+				
+					<tr>
+					<td>
+						<table cellspacing="0" cellpadding="0" style="width:100%;  margin-top: 20px;">
+
+							<tr>
+								<td align="center"><a href="https://www.taggd.com/?utm_source=smartech&utm_medium=email_13102022&utm_campaign=return_exchange_cancel&utm_term=Heading2"><img src="https://taggd.gumlet.io/mailers/store-credit/heading-lets-hang-on.jpg" alt="taggd" style="width:100%; margin-bottom:10px;"></a></td>
+							</tr>
+						
+							<tr>
+								<td align="center" style="background: #ffffff; text-align:center; font-family: 'Open Sans', sans-serif; padding: 0px 0 12px; margin-top:10px;">
+									<a href="https://www.instagram.com/letsgettaggd/?utm_source=smartech&utm_medium=email_13102022&utm_campaign=return_exchange_cancel&utm_term=Social1" style="margin-right:10px; display: inline-block;"><img width="26" height="26" src="https://taggd.gumlet.io/mailers/store-credit/icon-instagram.jpg" border="0" alt="Instagram"></a>
+									
+									<a href="https://www.facebook.com/letsgettaggd/?utm_source=smartech&utm_medium=email_13102022&utm_campaign=return_exchange_cancel&utm_term=Social2" style="margin-right:10px; display: inline-block;"><img width="30" height="30" src="https://taggd.gumlet.io/mailers/store-credit/icon-facebook.jpg" border="0" alt="Facebook"></a>
+									
+									<a href="https://www.youtube.com/channel/UCYV1vnMPhPE1PwYIJCH-Kyg/?utm_source=smartech&utm_medium=email_13102022&utm_campaign=return_exchange_cancel&utm_term=Social3" style="margin-right:10px; display: inline-block;"><img width="30" height="30" src="https://taggd.gumlet.io/mailers/store-credit/icon-youtube.jpg" border="0" alt="Youtube"></a>
+									
+								</td>
+							</tr>
+						</table>
+					</td>
+				</tr>
+				</table>
+			</td>
+		</tr>
+		   
+			
+
+       </table>
+     </body>
+ </html>

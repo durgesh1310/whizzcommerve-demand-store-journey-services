@@ -1,0 +1,33 @@
+{
+    "index": {
+        "number_of_shards": 1,
+        "number_of_replicas": 0,
+        "codec": "best_compression",
+        "max_ngram_diff": 155
+    },
+    "analysis": {
+        "analyzer": {
+            "like_analyzer": {
+                "type": "custom",
+                "tokenizer": "keyword",
+                "filter": [
+                    "lowercase",
+                    "like_filter"
+                ]
+            }
+        },
+        "filter": {
+            "like_filter": {
+                "type": "edge_ngram",
+                "min_gram": 1,
+                "max_gram": 155,
+                "token_chars": [
+                    "letter",
+                    "digit",
+                    "symbol",
+                    "punctuation"
+                ]
+            }
+        }
+    }
+}

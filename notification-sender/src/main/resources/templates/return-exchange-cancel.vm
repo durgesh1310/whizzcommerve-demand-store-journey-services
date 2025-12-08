@@ -1,0 +1,235 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=iso-8859-1">
+    <title>Order Detail</title>
+	<link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@200;300;400;600;700;900&display=swap"
+        rel="stylesheet">
+    <style type="text/css">
+	 body{font-family: 'Open Sans', sans-serif;}
+      .style1 {
+        font-size:20px;
+        color:#fff;
+      }
+      @media only screen and (max-width: 480px) {
+        table#canspambartdfont-size:14px !important;
+      }
+      
+      table#canspamBar td a {
+        display:block !important;
+        margin-top:10px !important;
+      }
+    }
+    
+    @media only screen and (max-width: 480px) {
+      table#canspamBar td {
+        font-size:14px !important;
+      }
+      
+      table#canspamBar td a {
+        display:block !important;
+        margin-top:10px !important;
+      }
+    }
+    
+    @media only screen and (max-width: 480px) {
+      table#canspamBar td {
+        font-size:14px !important;
+      }
+      
+      table#canspamBar td a {
+        display:block !important;
+        margin-top:10px !important;
+      }
+    }
+    
+    @media only screen and (max-width: 480px) {
+      table#canspamBar td {
+        font-size:14px !important;
+      }
+      
+      table#canspamBar td a {
+        display:block !important;
+        margin-top:10px !important;
+      }
+    }
+    
+    @media only screen and (max-width: 480px) {
+      table#canspamBar td {
+        font-size:14px !important;
+      }
+      
+      table#canspamBar td a {
+        display:block !important;
+        margin-top:10px !important;
+      }
+    }
+    </style>
+  </head>
+  <body>
+    <table width="600" style="border-left:1px;border-right:1px;background:#ffffff;" cellspacing="0" cellpadding="0" align="center">
+
+		<tr>
+			<td> 
+			 <!-- <span style="font-size:1px;color:#ffffff;">Bigger And Better This Brand Bazaar Get 15% off!</span> -->
+			</td>
+		</tr>
+		
+		<tr>
+				<td>
+					<table cellspacing="0" cellpadding="0" style="width:100%; margin-top: 12px; margin-bottom: 15px;">
+						<tr>
+							<td align="left" vertical-align="middle" width="275"><a style="display: inline-block;" href="https://www.taggd.com/?utm_source=smartech&utm_medium=email_13102022&utm_campaign=return_exchange_cancel&utm_term=Logo"><img src="https://taggd.gumlet.io/mailers/store-credit/taggd-logo.jpg" alt="logo" style="width: 110px;" ></a></td>
+							
+							<td align="center" width="85"><a  style="color: #000; text-decoration: none; font-weight: bold; display: inline-block; padding-bottom: 4px; line-height: 1;border-bottom: 2px solid #000;" href="https://taggd.com/products/4801/?utm_source=smartech&utm_medium=email_13102022&utm_campaign=return_exchange_cancel&utm_term=Menu1">Women</a></td>
+							
+							<td align="center" width="85"><a  style="color: #000; text-decoration: none; font-weight: bold; display: inline-block; padding-bottom: 4px; line-height: 1;border-bottom: 2px solid #000;" href="https://www.taggd.com/products/kids-fashion/?utm_source=smartech&utm_medium=email_13102022&utm_campaign=return_exchange_cancel&utm_term=Menu2">Kids</a></td>
+							
+							<td align="center" width="85"><a  style="color: #000; text-decoration: none; font-weight: bold; display: inline-block; padding-bottom: 4px; line-height: 1;border-bottom: 2px solid #000;" href="https://www.taggd.com/products/beauty/?utm_source=smartech&utm_medium=email_13102022&utm_campaign=return_exchange_cancel&utm_term=Menu3">Beauty</a></td>
+							
+							<td align="center" width="85"><a  style="color: #000; text-decoration: none; font-weight: bold; display: inline-block; padding-bottom: 4px; line-height: 1;border-bottom: 2px solid #000;" href="https://www.taggd.com/products/home-decor?utm_source=smartech&utm_medium=email_13102022&utm_campaign=return_exchange_cancel&utm_term=Menu4">Decor</a></td>
+							
+							<td align="center" width="85"><a  style="color: #db4a4f; text-decoration: none; font-weight: bold; display: inline-block; padding-bottom: 4px; line-height: 1; border-bottom: 2px solid #db4a4f;" href="https://www.taggd.com/collection/84/?utm_source=smartech&utm_medium=email_13102022&utm_campaign=return_exchange_cancel&utm_term=Menu5">Sale</a></td>
+							
+						</tr>
+					</table>	
+				</td>			
+			</tr> 
+		
+		
+		<!-- Newsletter body Start -->
+		
+			
+				<tr>
+					<td style="padding:20px 10px 15px; font-size:15px;">
+							<table cellspacing="0" cellpadding="0"  style="width:100%">
+									<tr>
+										<td>
+												<p style="margin-top:0;margin-bottom:15px;font-weight: 600;">Hi ${emailAlert.getCustomerName()},</p>
+										</td>
+									</tr>
+									
+									<tr>
+										<td>
+												<p style="margin-top:0; margin-bottom:10px; line-height: 24px;">Your ${ALERT_REQUEST} request for the following items has been registered successfully. You will get a revert back from our side within 24 hours.</p>
+										</td>
+									</tr>
+									
+									<tr>
+										<td>
+												<p style="margin-top:10px; margin-bottom:6px;font-size:15px;font-weight: 600;">Order ID # ${emailAlert.getOrderNumber()}</p>
+												<p style="margin-top:0; margin-bottom:10px; line-height: 22px;"><span>Placed on</span> ${emailAlert.getReturnExchangeCancelDate()}</p>
+										</td>
+									</tr>
+									
+									<tr>
+										<td>
+												<table cellspacing="0" cellpadding="0"  style="width:100%; text-align:center; border: 1px solid #dfdfdf; margin-top: 12px;">
+														<tr>
+																<th style="background: #f2f2f2; padding: 8px 5px;">Item</th>
+																<th style="background: #f2f2f2; padding: 8px 5px;">Sku</th>
+																<th style="background: #f2f2f2; padding: 8px 5px;">Qty</th>
+																<th style="background: #f2f2f2; padding: 8px 5px;">Reason</th>
+ 																<th style="background: #f2f2f2; padding: 8px 5px;">Process</th>
+														</tr>
+														
+														<tr>
+															<td width ="100px" style="padding: 8px 5px;"><img src= "${IMAGE_URL}" alt="" style="width: 45px;"><span style="display:block; margin-top:8px;">${emailAlert.getItemName()}</span>
+
+															</td>
+ 															<td style="padding: 8px 5px;">${emailAlert.getSku()}</td>
+															<td style="padding: 8px 5px;">${emailAlert.getQty()}</td>
+															<td style="padding: 8px 5px;">${emailAlert.getReason()} </td>
+ 															<td style="padding: 8px 5px;">${emailAlert.getRecordType()}</td>
+														</tr>
+														
+												</table>
+										</td>
+									</tr>
+									
+							</table>
+					</td>
+				</tr>
+					
+		
+
+		<!-- Newsletter body End -->
+				
+		
+        <!-- Newsletter Footer Section -->
+		<tr>
+			<td>
+				<table cellspacing="0" cellpadding="0" style="width:100%;">
+					<tr>
+						<td style="padding:0px 10px;">
+								<p style="margin-top:10px; margin-bottom:24px;">
+										<span style="font-size:16px; display:block; margin-bottom: 12px;"><strong style="font-weight:700">Other Questions?</strong></span>
+										<span style="display:block;margin-top:6px; margin-bottom:6px; font-size: 15px;">If you have any questions, please feel free to contact us at</span>
+										<a href="mailto:customercare@taggd.com" style="text-decoration:none;font-weight:bold;color:#000; font-size: 15px;" target="_blank">customercare@taggd.<wbr>com</a>
+								</p>
+						</td>
+					</tr>
+				
+				
+					<tr>
+						<td align="center" style="background: #fbfbf8; text-align:center; font-size: 15px; font-weight: 600; color:#343333;">
+								<p style="margin-top:0px; margin-bottom:0px; padding: 10px;">Thank You, Team taggd!</p>
+						</td>
+					</tr>
+					
+					<tr>
+						<td align="center" style="font-size: 14px; font-weight: 600; color:#343333; padding: 20px 0;">
+							<table style="text-align: center; width: 80%; margin: 0 auto;">
+								<tr>
+									<td>
+										<a href="https://www.taggd.com/terms-conditions" style="text-decoration: none; color: #343333; letter-spacing: 0.5px; display: inline-block;">Terms &amp; Conditions</a>
+									</td>
+									<td style="text-align:center;padding:0 20px">|</td>
+									
+									<td>
+										<a href="https://www.taggd.com/cancellation-return" style="text-decoration: none; color: #343333; letter-spacing: 0.5px; display: inline-block;">Cancellation &amp; Return</a>
+									</td>
+									<td style="text-align:center;padding:0 20px">|</td>
+									<td>
+										<a href="https://www.taggd.com/shipping-policy" style="text-decoration: none; color: #343333; letter-spacing: 0.5px; display: inline-block;">Shipping &amp; Policy</a>
+									</td>
+								</tr>
+							</table>
+						
+							
+						</td>
+					</tr>
+				
+				
+					<tr>
+					<td>
+						<table cellspacing="0" cellpadding="0" style="width:100%;  margin-top: 20px;">
+
+							<tr>
+								<td align="center"><a href="https://www.taggd.com/?utm_source=smartech&utm_medium=email_13102022&utm_campaign=return_exchange_cancel&utm_term=Heading2"><img src="https://taggd.gumlet.io/mailers/store-credit/heading-lets-hang-on.jpg" alt="taggd" style="width:100%; margin-bottom:10px;"></a></td>
+							</tr>
+						
+							<tr>
+								<td align="center" style="background: #ffffff; text-align:center; font-family: 'Open Sans', sans-serif; padding: 0px 0 12px; margin-top:10px;">
+									<a href="https://www.instagram.com/letsgettaggd/?utm_source=smartech&utm_medium=email_13102022&utm_campaign=return_exchange_cancel&utm_term=Social1" style="margin-right:10px; display: inline-block;"><img width="26" height="26" src="https://taggd.gumlet.io/mailers/store-credit/icon-instagram.jpg" border="0" alt="Instagram"></a>
+									
+									<a href="https://www.facebook.com/letsgettaggd/?utm_source=smartech&utm_medium=email_13102022&utm_campaign=return_exchange_cancel&utm_term=Social2" style="margin-right:10px; display: inline-block;"><img width="30" height="30" src="https://taggd.gumlet.io/mailers/store-credit/icon-facebook.jpg" border="0" alt="Facebook"></a>
+									
+									<a href="https://www.youtube.com/channel/UCYV1vnMPhPE1PwYIJCH-Kyg/?utm_source=smartech&utm_medium=email_13102022&utm_campaign=return_exchange_cancel&utm_term=Social3" style="margin-right:10px; display: inline-block;"><img width="30" height="30" src="https://taggd.gumlet.io/mailers/store-credit/icon-youtube.jpg" border="0" alt="Youtube"></a>
+									
+								</td>
+							</tr>
+						</table>
+					</td>
+				</tr>
+				</table>
+			</td>
+		</tr>
+		
+
+      </table>
+    </body>
+</html>
+
+
+

@@ -1,0 +1,6 @@
+package com.ouat.orderService.enums;
+
+public enum RequestStatus {
+	CANCELLED, CREATED, PROCESSING, PACKED, READY_TO_DISPATCH, DISPATCHED, DELIVERED, REPLACED, RETURN_REQUESTED, RETURNED
+
+}
